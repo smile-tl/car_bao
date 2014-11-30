@@ -1,0 +1,125 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yidian.carbao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="10" />
+
+    <meta-data
+        android:name="com.thinkland.juheapi.openid"
+        android:value="986125c32068c2055c8a3b20e7e5be91" />
+    <meta-data
+        android:name="com.baidu.lbsapi.API_KEY"
+        android:value="6AvkoEV8RiVGSEj7HrELnoh6" />
+
+    <uses-permission android:name="android.permission.READ_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+
+    <application
+        android:name="com.yidian.carbao.UILApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity android:name="com.yidian.carbao.activity.ActivityMain" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.DetectionActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.LoginActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.RegisterActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.BusinessCenter" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.BusinessData" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.ProductLists" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.ProductEditActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.CityActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.BreakRule" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.DecorateActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.PartActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.HelperActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.BreakRuleResult" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.BreakRuleCitySearchActivity" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.ProductListsShow" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.Detail" >
+        </activity>
+        <activity android:name="com.yidian.carbao.activity.ProductPublishActivity" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+
+            <!--
+                <intent-filter>
+				<action android:name="com.baidu.location.service_v2.9"></action>
+				</intent-filter>
+            -->
+        </service>
+    </application>
+
+</manifest>

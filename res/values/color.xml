@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#4889db</color>
+    <color name="yellow">#eaad21</color>
+    <color name="search_bg">#e3ecf2</color>
+    <color name="line">#c4c4c4</color>
+    <color name="register">#75a6e4</color>
+    <color name="gray_bg">#ececec</color>
+    <color name="text_gray">#838383</color>
+    <color name="text_blue">#4889db</color>
+    <color name="city_reminder">#636363</color>
+    <color name="keyboard_bg">#818995</color>
+    <color name="key">#e8e9ec</color>
+    <color name="key_finish">#00cb7c</color>
+    <color name="width_line">#e0e0e0</color>
+    <color name="button_gray_bg">#f8f8f8</color>
+    <color name="button_text_blue">#0077FF</color>
+    <color name="button_text_gray">#555555</color>
+    <color name="phone_bg">#639be0</color>
+
+</resources>
